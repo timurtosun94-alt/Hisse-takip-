@@ -1,0 +1,605 @@
+{
+  "date": "2026-06-25",
+  "generatedAt": "2026-06-25T06:25:44.907Z",
+  "count": 35,
+  "picks": [
+    {
+      "kod": "ASML.AS",
+      "market": "eu",
+      "currency": "EUR",
+      "fiyat": 1553.8,
+      "score": 93,
+      "mom": 97,
+      "tech": 89,
+      "chg1m": 11.8,
+      "chg1y": 124.7,
+      "vals": {
+        "chg1m": "11.8",
+        "chg1y": "124.7",
+        "pos52": "86"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "LLY",
+      "market": "us",
+      "currency": "USD",
+      "fiyat": 1117.26,
+      "score": 89,
+      "mom": 88,
+      "tech": 89,
+      "chg1m": 4.9,
+      "chg1y": 41,
+      "vals": {
+        "chg1m": "4.9",
+        "chg1y": "41",
+        "pos52": "88.3"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "EREGL",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 39.94,
+      "score": 85,
+      "mom": 80,
+      "tech": 89,
+      "chg1m": 1.9,
+      "chg1y": 53.6,
+      "vals": {
+        "chg1m": "1.9",
+        "chg1y": "53.6",
+        "pos52": "81.3"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "JPM",
+      "market": "us",
+      "currency": "USD",
+      "fiyat": 333.45,
+      "score": 83,
+      "mom": 88,
+      "tech": 77,
+      "chg1m": 8.8,
+      "chg1y": 17.4,
+      "vals": {
+        "chg1m": "8.8",
+        "chg1y": "17.4",
+        "pos52": "92.1"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "UNH",
+      "market": "us",
+      "currency": "USD",
+      "fiyat": 405.8,
+      "score": 83,
+      "mom": 80,
+      "tech": 85,
+      "chg1m": 4.5,
+      "chg1y": 34.4,
+      "vals": {
+        "chg1m": "4.5",
+        "chg1y": "34.4",
+        "pos52": "94.4"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "THYAO",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 324.75,
+      "score": 80,
+      "mom": 82,
+      "tech": 77,
+      "chg1m": 9.4,
+      "chg1y": 18.3,
+      "vals": {
+        "chg1m": "9.4",
+        "chg1y": "18.3",
+        "pos52": "69.1"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "AKBNK",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 80.95,
+      "score": 80,
+      "mom": 82,
+      "tech": 77,
+      "chg1m": 26.5,
+      "chg1y": 32.6,
+      "vals": {
+        "chg1m": "26.5",
+        "chg1y": "32.6",
+        "pos52": "69"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "NOVN.SW",
+      "market": "eu",
+      "currency": "CHF",
+      "fiyat": 124.34,
+      "score": 79,
+      "mom": 80,
+      "tech": 77,
+      "chg1m": 5,
+      "chg1y": 30.3,
+      "vals": {
+        "chg1m": "5",
+        "chg1y": "30.3",
+        "pos52": "83.3"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "IBE.MC",
+      "market": "eu",
+      "currency": "EUR",
+      "fiyat": 21.15,
+      "score": 79,
+      "mom": 80,
+      "tech": 77,
+      "chg1m": 7.2,
+      "chg1y": 26.6,
+      "vals": {
+        "chg1m": "7.2",
+        "chg1y": "26.6",
+        "pos52": "95.6"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "ISP.MI",
+      "market": "eu",
+      "currency": "EUR",
+      "fiyat": 6.09,
+      "score": 79,
+      "mom": 80,
+      "tech": 77,
+      "chg1m": 6.7,
+      "chg1y": 25.2,
+      "vals": {
+        "chg1m": "6.7",
+        "chg1y": "25.2",
+        "pos52": "90.2"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "SIE.DE",
+      "market": "eu",
+      "currency": "EUR",
+      "fiyat": 271.4,
+      "score": 77,
+      "mom": 64,
+      "tech": 89,
+      "chg1m": -0.4,
+      "chg1y": 26.5,
+      "vals": {
+        "chg1m": "-0.4",
+        "chg1y": "26.5",
+        "pos52": "89.3"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "AZN.L",
+      "market": "eu",
+      "currency": "GBp",
+      "fiyat": 13910,
+      "score": 77,
+      "mom": 64,
+      "tech": 89,
+      "chg1m": -0.4,
+      "chg1y": 34.6,
+      "vals": {
+        "chg1m": "-0.4",
+        "chg1y": "34.6",
+        "pos52": "88.4"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "NESN.SW",
+      "market": "eu",
+      "currency": "CHF",
+      "fiyat": 82.89,
+      "score": 75,
+      "mom": 72,
+      "tech": 77,
+      "chg1m": 4.4,
+      "chg1y": 1.1,
+      "vals": {
+        "chg1m": "4.4",
+        "chg1y": "1.1",
+        "pos52": "85.7"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "AAPL",
+      "market": "us",
+      "currency": "USD",
+      "fiyat": 293.08,
+      "score": 73,
+      "mom": 61,
+      "tech": 85,
+      "chg1m": -5.1,
+      "chg1y": 45.4,
+      "vals": {
+        "chg1m": "-5.1",
+        "chg1y": "45.4",
+        "pos52": "79.4"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "GARAN",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 140.4,
+      "score": 72,
+      "mom": 76,
+      "tech": 68,
+      "chg1m": 14.2,
+      "chg1y": 17,
+      "vals": {
+        "chg1m": "14.2",
+        "chg1y": "17",
+        "pos52": "46"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "OR.PA",
+      "market": "eu",
+      "currency": "EUR",
+      "fiyat": 386.65,
+      "score": 69,
+      "mom": 66,
+      "tech": 72,
+      "chg1m": 4.9,
+      "chg1y": 6.4,
+      "vals": {
+        "chg1m": "4.9",
+        "chg1y": "6.4",
+        "pos52": "68.8"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "TCELL",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 110.4,
+      "score": 66,
+      "mom": 76,
+      "tech": 56,
+      "chg1m": 9.3,
+      "chg1y": 20.4,
+      "vals": {
+        "chg1m": "9.3",
+        "chg1y": "20.4",
+        "pos52": "54.9"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "BIMAS",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 374,
+      "score": 65,
+      "mom": 74,
+      "tech": 56,
+      "chg1m": 0.3,
+      "chg1y": 53,
+      "vals": {
+        "chg1m": "0.3",
+        "chg1y": "53",
+        "pos52": "73.7"
+      },
+      "bucket": "izle"
+    },
+    {
+      "kod": "AIR.PA",
+      "market": "eu",
+      "currency": "EUR",
+      "fiyat": 195.1,
+      "score": 64,
+      "mom": 67,
+      "tech": 60,
+      "chg1m": 13.2,
+      "chg1y": 14.4,
+      "vals": {
+        "chg1m": "13.2",
+        "chg1y": "14.4",
+        "pos52": "59"
+      },
+      "bucket": "izle"
+    },
+    {
+      "kod": "MC.PA",
+      "market": "eu",
+      "currency": "EUR",
+      "fiyat": 493,
+      "score": 63,
+      "mom": 53,
+      "tech": 72,
+      "chg1m": 5.1,
+      "chg1y": 8.7,
+      "vals": {
+        "chg1m": "5.1",
+        "chg1y": "8.7",
+        "pos52": "25.9"
+      },
+      "bucket": "izle"
+    },
+    {
+      "kod": "ASELS",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 367.5,
+      "score": 62,
+      "mom": 67,
+      "tech": 56,
+      "chg1m": -3.4,
+      "chg1y": 157.7,
+      "vals": {
+        "chg1m": "-3.4",
+        "chg1y": "157.7",
+        "pos52": "73.4"
+      },
+      "bucket": "izle"
+    },
+    {
+      "kod": "KCHOL",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 193,
+      "score": 58,
+      "mom": 59,
+      "tech": 56,
+      "chg1m": 2.1,
+      "chg1y": 30.5,
+      "vals": {
+        "chg1m": "2.1",
+        "chg1y": "30.5",
+        "pos52": "59"
+      },
+      "bucket": "izle"
+    },
+    {
+      "kod": "GOOGL",
+      "market": "us",
+      "currency": "USD",
+      "fiyat": 345.29,
+      "score": 57,
+      "mom": 61,
+      "tech": 52,
+      "chg1m": -9.8,
+      "chg1y": 102.3,
+      "vals": {
+        "chg1m": "-9.8",
+        "chg1y": "102.3",
+        "pos52": "73.5"
+      },
+      "bucket": "izle"
+    },
+    {
+      "kod": "AVGO",
+      "market": "us",
+      "currency": "USD",
+      "fiyat": 382.07,
+      "score": 57,
+      "mom": 55,
+      "tech": 58,
+      "chg1m": -7.7,
+      "chg1y": 44.4,
+      "vals": {
+        "chg1m": "-7.7",
+        "chg1y": "44.4",
+        "pos52": "51.4"
+      },
+      "bucket": "izle"
+    },
+    {
+      "kod": "V",
+      "market": "us",
+      "currency": "USD",
+      "fiyat": 332.23,
+      "score": 56,
+      "mom": 43,
+      "tech": 68,
+      "chg1m": 1,
+      "chg1y": -3.8,
+      "vals": {
+        "chg1m": "1",
+        "chg1y": "-3.8",
+        "pos52": "58.3"
+      },
+      "bucket": "izle"
+    },
+    {
+      "kod": "SISE",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 45.1,
+      "score": 54,
+      "mom": 52,
+      "tech": 56,
+      "chg1m": -1.5,
+      "chg1y": 34.6,
+      "vals": {
+        "chg1m": "-1.5",
+        "chg1y": "34.6",
+        "pos52": "58.4"
+      },
+      "bucket": "izle"
+    },
+    {
+      "kod": "NVDA",
+      "market": "us",
+      "currency": "USD",
+      "fiyat": 199,
+      "score": 49,
+      "mom": 46,
+      "tech": 52,
+      "chg1m": -7.6,
+      "chg1y": 29,
+      "vals": {
+        "chg1m": "-7.6",
+        "chg1y": "29",
+        "pos52": "55.9"
+      },
+      "bucket": "izle"
+    },
+    {
+      "kod": "AMZN",
+      "market": "us",
+      "currency": "USD",
+      "fiyat": 234.27,
+      "score": 45,
+      "mom": 38,
+      "tech": 52,
+      "chg1m": -12,
+      "chg1y": 10.5,
+      "vals": {
+        "chg1m": "-12",
+        "chg1y": "10.5",
+        "pos52": "46.4"
+      },
+      "bucket": "zayif"
+    },
+    {
+      "kod": "COST",
+      "market": "us",
+      "currency": "USD",
+      "fiyat": 961.09,
+      "score": 44,
+      "mom": 31,
+      "tech": 56,
+      "chg1m": -6.5,
+      "chg1y": -2.6,
+      "vals": {
+        "chg1m": "-6.5",
+        "chg1y": "-2.6",
+        "pos52": "46.4"
+      },
+      "bucket": "zayif"
+    },
+    {
+      "kod": "TUPRS",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 216.8,
+      "score": 43,
+      "mom": 55,
+      "tech": 30,
+      "chg1m": -7.4,
+      "chg1y": 57.9,
+      "vals": {
+        "chg1m": "-7.4",
+        "chg1y": "57.9",
+        "pos52": "57.2"
+      },
+      "bucket": "zayif"
+    },
+    {
+      "kod": "SHEL.L",
+      "market": "eu",
+      "currency": "GBp",
+      "fiyat": 2946.5,
+      "score": 41,
+      "mom": 45,
+      "tech": 36,
+      "chg1m": -7.8,
+      "chg1y": 14,
+      "vals": {
+        "chg1m": "-7.8",
+        "chg1y": "14",
+        "pos52": "78.4"
+      },
+      "bucket": "zayif"
+    },
+    {
+      "kod": "FROTO",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 86.45,
+      "score": 31,
+      "mom": 32,
+      "tech": 30,
+      "chg1m": 2.7,
+      "chg1y": -0.2,
+      "vals": {
+        "chg1m": "2.7",
+        "chg1y": "-0.2",
+        "pos52": "8.9"
+      },
+      "bucket": "zayif"
+    },
+    {
+      "kod": "MSFT",
+      "market": "us",
+      "currency": "USD",
+      "fiyat": 365.46,
+      "score": 25,
+      "mom": 14,
+      "tech": 36,
+      "chg1m": -12.7,
+      "chg1y": -25.8,
+      "vals": {
+        "chg1m": "-12.7",
+        "chg1y": "-25.8",
+        "pos52": "4.6"
+      },
+      "bucket": "zayif"
+    },
+    {
+      "kod": "META",
+      "market": "us",
+      "currency": "USD",
+      "fiyat": 557.67,
+      "score": 25,
+      "mom": 14,
+      "tech": 36,
+      "chg1m": -8.6,
+      "chg1y": -21.3,
+      "vals": {
+        "chg1m": "-8.6",
+        "chg1y": "-21.3",
+        "pos52": "13.6"
+      },
+      "bucket": "zayif"
+    },
+    {
+      "kod": "SAP.DE",
+      "market": "eu",
+      "currency": "EUR",
+      "fiyat": 134.86,
+      "score": 25,
+      "mom": 14,
+      "tech": 36,
+      "chg1m": -11,
+      "chg1y": -47.1,
+      "vals": {
+        "chg1m": "-11",
+        "chg1y": "-47.1",
+        "pos52": "3.1"
+      },
+      "bucket": "zayif"
+    }
+  ],
+  "note": null,
+  "sentiment": null,
+  "disclaimer": "Otomatik momentum/teknik taraması. Yatırım tavsiyesi değildir."
+}
