@@ -1,27 +1,31 @@
-
-// scan.mjs — Otonom günlük tarayıcı v2 (Node 20+, sıfır bağımlılık)
-// Daha geniş evren + derin kantitatif metrikler (getiri/oynaklık/drawdown/RSI/trend).
+// scan.mjs — Otonom günlük tarayıcı v3 (Node 20+, sıfır bağımlılık)
+// Geniş evren (~170 hisse) + sağlam çekme (küçük grup + bekleme + 2 host) → daha çok hisse hayatta kalır.
 const UNIVERSE = {
-  tr: ["THYAO","ASELS","KCHOL","SAHOL","BIMAS","EREGL","FROTO","TUPRS","SISE","AKBNK","GARAN","YKBNK","ISCTR","TCELL","TTKOM","PETKM","KOZAL","KOZAA","PGSUS","SASA","HEKTS","TOASO","ARCLK","EKGYO","ENKAI","TAVHL","GUBRF","KONTR","ALARK","MGROS","ULKER","TTRAK"],
-  us: ["AAPL","MSFT","NVDA","GOOGL","AMZN","META","AVGO","TSLA","JPM","V","MA","LLY","UNH","COST","HD","PG","KO","ABBV","WMT","XOM","CVX","JNJ","ORCL","NFLX","AMD","CRM","ADBE","PEP","MRK","BAC","QCOM","TXN"],
-  eu: ["ASML.AS","SAP.DE","MC.PA","NESN.SW","OR.PA","SIE.DE","NOVN.SW","ROG.SW","IBE.MC","ISP.MI","ENEL.MI","SHEL.L","AZN.L","HSBA.L","ULVR.L","AIR.PA","SAN.PA","BNP.PA","ALV.DE","DTE.DE","BAS.DE","ENI.MI","SAN.MC","BBVA.MC","RMS.PA","VOW3.DE","MBG.DE","ADS.DE","BN.PA","AI.PA","SU.PA","DG.PA"]
+  tr: ["THYAO","ASELS","KCHOL","SAHOL","BIMAS","EREGL","FROTO","TUPRS","SISE","AKBNK","GARAN","YKBNK","ISCTR","TCELL","TTKOM","PETKM","KOZAL","KOZAA","PGSUS","SASA","HEKTS","TOASO","ARCLK","EKGYO","ENKAI","TAVHL","GUBRF","KONTR","ALARK","MGROS","ULKER","TTRAK","VESTL","OYAKC","AEFES","CCOLA","DOHOL","KRDMD","SOKM","TKFEN","HALKB","VAKBN","BRSAN","ENJSA","ASTOR","CIMSA","OTKAR","ODAS","CWENE","SMRTG","BIENY","AGHOL","TURSG","KCAER","EUPWR","MIATK","TABGD","CANTE","BERA","KLSER"],
+  us: ["AAPL","MSFT","NVDA","GOOGL","AMZN","META","AVGO","TSLA","JPM","V","MA","LLY","UNH","COST","HD","PG","KO","ABBV","WMT","XOM","CVX","JNJ","ORCL","NFLX","AMD","CRM","ADBE","PEP","MRK","BAC","QCOM","TXN","INTC","CSCO","INTU","AMAT","NOW","ISRG","BKNG","GS","MS","CAT","GE","HON","UNP","BA","DE","LMT","RTX","SPGI","BLK","AXP","PFE","TMO","DHR","ABT","NKE","MCD","SBUX","DIS"],
+  eu: ["ASML.AS","SAP.DE","MC.PA","NESN.SW","OR.PA","SIE.DE","NOVN.SW","ROG.SW","IBE.MC","ISP.MI","ENEL.MI","SHEL.L","AZN.L","HSBA.L","ULVR.L","AIR.PA","SAN.PA","BNP.PA","ALV.DE","DTE.DE","BAS.DE","ENI.MI","SAN.MC","BBVA.MC","RMS.PA","VOW3.DE","MBG.DE","ADS.DE","BN.PA","AI.PA","SU.PA","DG.PA","CS.PA","EL.PA","KER.PA","RACE.MI","UCG.MI","IFX.DE","DBK.DE","BAYN.DE","BMW.DE","MUV2.DE","ITX.MC","TEF.MC","REP.MC","STLAM.MI","G.MI","BARC.L","GLEN.L","BP.L"]
 };
 const HOSTS = ["https://query1.finance.yahoo.com", "https://query2.finance.yahoo.com"];
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function chart(symbol) {
-  for (const h of HOSTS) {
-    try {
-      const u = `${h}/v8/finance/chart/${encodeURIComponent(symbol)}?range=1y&interval=1d`;
-      const r = await fetch(u, { headers: { "User-Agent": "Mozilla/5.0" } });
-      if (!r.ok) continue;
-      const j = await r.json();
-      const res = j && j.chart && j.chart.result && j.chart.result[0];
-      if (!res) continue;
-      const q = res.indicators && res.indicators.quote && res.indicators.quote[0];
-      const closes = ((q && q.close) || []).filter((x) => x != null);
-      const meta = res.meta || {};
-      if (closes.length > 30) return { closes, currency: meta.currency, price: meta.regularMarketPrice != null ? meta.regularMarketPrice : closes[closes.length - 1], hi52: meta.fiftyTwoWeekHigh, lo52: meta.fiftyTwoWeekLow };
-    } catch (e) {}
+  for (let attempt = 0; attempt < 2; attempt++) {
+    for (const h of HOSTS) {
+      try {
+        const u = `${h}/v8/finance/chart/${encodeURIComponent(symbol)}?range=1y&interval=1d`;
+        const r = await fetch(u, { headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" } });
+        if (r.status === 429) { await sleep(1500); continue; }
+        if (!r.ok) continue;
+        const j = await r.json();
+        const res = j && j.chart && j.chart.result && j.chart.result[0];
+        if (!res) continue;
+        const q = res.indicators && res.indicators.quote && res.indicators.quote[0];
+        const closes = ((q && q.close) || []).filter((x) => x != null);
+        const meta = res.meta || {};
+        if (closes.length > 30) return { closes, currency: meta.currency, price: meta.regularMarketPrice != null ? meta.regularMarketPrice : closes[closes.length - 1], hi52: meta.fiftyTwoWeekHigh, lo52: meta.fiftyTwoWeekLow };
+      } catch (e) {}
+    }
+    await sleep(500);
   }
   return null;
 }
@@ -65,8 +69,9 @@ async function main() {
   const entries = [];
   for (const mk of ["tr", "us", "eu"]) for (const k of UNIVERSE[mk]) entries.push({ kod: k, market: mk });
   const picks = [];
-  for (let i = 0; i < entries.length; i += 6) {
-    const batch = entries.slice(i, i + 6);
+  const BATCH = 4, DELAY = 350;
+  for (let i = 0; i < entries.length; i += BATCH) {
+    const batch = entries.slice(i, i + BATCH);
     const rs = await Promise.allSettled(batch.map((e) => chart(e.market === "tr" ? e.kod + ".IS" : e.kod)));
     rs.forEach((r, j) => {
       if (r.status === "fulfilled" && r.value) {
@@ -75,12 +80,14 @@ async function main() {
         picks.push({ kod: e.kod, market: e.market, currency: s.currency || (e.market === "us" ? "USD" : e.market === "eu" ? "EUR" : "TRY"), fiyat: s.price != null ? +(+s.price).toFixed(2) : null, score: s.score, mom: s.mom, trend: s.trend, rsi: s.rsi, vol: s.vol, maxDD: s.maxDD, pos52: s.pos52, ret1m: s.ret1m, ret3m: s.ret3m, ret6m: s.ret6m, chg1m: s.ret1m, chg1y: s.ret1y, vals });
       }
     });
+    console.log(`taranan ${Math.min(i + BATCH, entries.length)}/${entries.length} · bulunan ${picks.length}`);
+    await sleep(DELAY);
   }
   picks.sort((a, b) => b.score - a.score);
   picks.forEach((p) => { p.bucket = p.score >= 66 ? "al" : p.score >= 46 ? "izle" : "zayif"; });
   const ai = await aiNote(picks);
-  const report = { date: new Date().toISOString().slice(0, 10), generatedAt: new Date().toISOString(), count: picks.length, universe: { tr: UNIVERSE.tr.length, us: UNIVERSE.us.length, eu: UNIVERSE.eu.length }, picks, note: ai ? ai.note : null, sentiment: ai ? ai.sentiment : null, disclaimer: "Otomatik momentum/teknik taraması. Yatırım tavsiyesi değildir." };
+  const report = { date: new Date().toISOString().slice(0, 10), generatedAt: new Date().toISOString(), count: picks.length, universe: { tr: UNIVERSE.tr.length, us: UNIVERSE.us.length, eu: UNIVERSE.eu.length, toplam: entries.length }, picks, note: ai ? ai.note : null, sentiment: ai ? ai.sentiment : null, disclaimer: "Otomatik momentum/teknik taraması. Yatırım tavsiyesi değildir." };
   const fs = await import("node:fs"); fs.writeFileSync("report.json", JSON.stringify(report, null, 2));
-  console.log("wrote report.json:", picks.length, "picks");
+  console.log("wrote report.json:", picks.length, "picks /", entries.length, "evren");
 }
 main();
