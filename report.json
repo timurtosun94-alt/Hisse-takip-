@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-04",
-  "generatedAt": "2026-07-04T11:12:52.562Z",
+  "date": "2026-07-05",
+  "generatedAt": "2026-07-05T11:48:57.101Z",
   "count": 167,
   "universe": {
     "tr": 60,
@@ -20,7 +20,7 @@
       "rsi": 60,
       "vol": 18.9,
       "maxDD": -9.4,
-      "pos52": 92.6,
+      "pos52": 92.4,
       "ret1m": 10.8,
       "ret3m": 19.8,
       "ret6m": 18.7,
@@ -29,7 +29,7 @@
       "vals": {
         "chg1m": "10.8",
         "chg1y": "42.5",
-        "pos52": "92.6"
+        "pos52": "92.4"
       },
       "bucket": "al"
     },
@@ -380,7 +380,7 @@
       "rsi": 73,
       "vol": 31.5,
       "maxDD": -24.2,
-      "pos52": 98,
+      "pos52": 97.9,
       "ret1m": 10.5,
       "ret3m": 30.8,
       "ret6m": 14.8,
@@ -389,7 +389,7 @@
       "vals": {
         "chg1m": "10.5",
         "chg1y": "43.7",
-        "pos52": "98"
+        "pos52": "97.9"
       },
       "bucket": "al"
     },
@@ -596,7 +596,7 @@
       "rsi": 69,
       "vol": 26.2,
       "maxDD": -18.2,
-      "pos52": 99,
+      "pos52": 98.9,
       "ret1m": 6.1,
       "ret3m": 18.8,
       "ret6m": 23.6,
@@ -605,7 +605,7 @@
       "vals": {
         "chg1m": "6.1",
         "chg1y": "64",
-        "pos52": "99"
+        "pos52": "98.9"
       },
       "bucket": "al"
     },
@@ -620,7 +620,7 @@
       "rsi": 70,
       "vol": 30.1,
       "maxDD": -25.5,
-      "pos52": 97.9,
+      "pos52": 97.8,
       "ret1m": 12.6,
       "ret3m": 27.7,
       "ret6m": 8.9,
@@ -629,7 +629,7 @@
       "vals": {
         "chg1m": "12.6",
         "chg1y": "57.2",
-        "pos52": "97.9"
+        "pos52": "97.8"
       },
       "bucket": "al"
     },
@@ -1066,30 +1066,6 @@
       "bucket": "al"
     },
     {
-      "kod": "HON",
-      "market": "us",
-      "currency": "USD",
-      "fiyat": 229.86,
-      "score": 77,
-      "mom": 52,
-      "trend": "güçlü yükseliş",
-      "rsi": 61,
-      "vol": 24.8,
-      "maxDD": -17,
-      "pos52": 52.8,
-      "ret1m": -2.3,
-      "ret3m": 0.7,
-      "ret6m": 17.1,
-      "chg1m": -2.3,
-      "chg1y": 1.4,
-      "vals": {
-        "chg1m": "-2.3",
-        "chg1y": "1.4",
-        "pos52": "52.8"
-      },
-      "bucket": "al"
-    },
-    {
       "kod": "DG.PA",
       "market": "eu",
       "currency": "EUR",
@@ -1316,7 +1292,7 @@
       "rsi": 71,
       "vol": 25.3,
       "maxDD": -15.4,
-      "pos52": 77.3,
+      "pos52": 77.1,
       "ret1m": 6.7,
       "ret3m": -3.8,
       "ret6m": 6.4,
@@ -1325,7 +1301,7 @@
       "vals": {
         "chg1m": "6.7",
         "chg1y": "41.7",
-        "pos52": "77.3"
+        "pos52": "77.1"
       },
       "bucket": "al"
     },
@@ -1762,6 +1738,30 @@
       "bucket": "al"
     },
     {
+      "kod": "RACE.MI",
+      "market": "eu",
+      "currency": "EUR",
+      "fiyat": 331.15,
+      "score": 66,
+      "mom": 65,
+      "trend": "nötr-pozitif",
+      "rsi": 60,
+      "vol": 36.4,
+      "maxDD": -37.9,
+      "pos52": 34.8,
+      "ret1m": 9.8,
+      "ret3m": 12.1,
+      "ret6m": 3,
+      "chg1m": 9.8,
+      "chg1y": -20.8,
+      "vals": {
+        "chg1m": "9.8",
+        "chg1y": "-20.8",
+        "pos52": "34.8"
+      },
+      "bucket": "al"
+    },
+    {
       "kod": "TOASO",
       "market": "tr",
       "currency": "TRY",
@@ -1902,30 +1902,6 @@
         "chg1m": "11.4",
         "chg1y": "-12.2",
         "pos52": "42.2"
-      },
-      "bucket": "izle"
-    },
-    {
-      "kod": "RACE.MI",
-      "market": "eu",
-      "currency": "EUR",
-      "fiyat": 331.15,
-      "score": 63,
-      "mom": 65,
-      "trend": "nötr-pozitif",
-      "rsi": 69,
-      "vol": 36.4,
-      "maxDD": -37.9,
-      "pos52": 34.8,
-      "ret1m": 11.4,
-      "ret3m": 11.2,
-      "ret6m": 4.7,
-      "chg1m": 11.4,
-      "chg1y": -20.8,
-      "vals": {
-        "chg1m": "11.4",
-        "chg1y": "-20.8",
-        "pos52": "34.8"
       },
       "bucket": "izle"
     },
@@ -2454,6 +2430,30 @@
         "chg1m": "-26.8",
         "chg1y": "8.7",
         "pos52": "39.3"
+      },
+      "bucket": "izle"
+    },
+    {
+      "kod": "HON",
+      "market": "us",
+      "currency": "USD",
+      "fiyat": 229.86,
+      "score": 53,
+      "mom": 37,
+      "trend": "nötr-pozitif",
+      "rsi": 50,
+      "vol": 25.6,
+      "maxDD": -17,
+      "pos52": 52.8,
+      "ret1m": -6.8,
+      "ret3m": -4,
+      "ret6m": 11.6,
+      "chg1m": -6.8,
+      "chg1y": -3.3,
+      "vals": {
+        "chg1m": "-6.8",
+        "chg1y": "-3.3",
+        "pos52": "52.8"
       },
       "bucket": "izle"
     },
@@ -3665,17 +3665,17 @@
       "score": 31,
       "mom": 15,
       "trend": "düşüş",
-      "rsi": 25,
-      "vol": 29.1,
+      "rsi": 19,
+      "vol": 28.7,
       "maxDD": -35.6,
       "pos52": 13.7,
-      "ret1m": -16.4,
-      "ret3m": -15.6,
-      "ret6m": -29.9,
-      "chg1m": -16.4,
+      "ret1m": -15.7,
+      "ret3m": -14.5,
+      "ret6m": -27.8,
+      "chg1m": -15.7,
       "chg1y": -18,
       "vals": {
-        "chg1m": "-16.4",
+        "chg1m": "-15.7",
         "chg1y": "-18",
         "pos52": "13.7"
       },
