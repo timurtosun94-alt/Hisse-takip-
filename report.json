@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-19",
-  "generatedAt": "2026-09-19T10:17:15.333Z",
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T10:36:18.411Z",
   "count": 167,
   "universe": {
     "tr": 60,
@@ -92,7 +92,7 @@
       "rsi": 65,
       "vol": 24.9,
       "maxDD": -13.8,
-      "pos52": 91.9,
+      "pos52": 91.7,
       "ret1m": 6.1,
       "ret3m": 12.8,
       "ret6m": 35,
@@ -101,7 +101,7 @@
       "vals": {
         "chg1m": "6.1",
         "chg1y": "36.9",
-        "pos52": "91.9"
+        "pos52": "91.7"
       },
       "bucket": "al"
     },
@@ -778,30 +778,6 @@
       "bucket": "al"
     },
     {
-      "kod": "SAP.DE",
-      "market": "eu",
-      "currency": "EUR",
-      "fiyat": 183.12,
-      "score": 72,
-      "mom": 70,
-      "trend": "yükseliş",
-      "rsi": 45,
-      "vol": 40.9,
-      "maxDD": -47,
-      "pos52": 50.6,
-      "ret1m": 2.2,
-      "ret3m": 39.1,
-      "ret6m": 16.6,
-      "chg1m": 2.2,
-      "chg1y": -18.7,
-      "vals": {
-        "chg1m": "2.2",
-        "chg1y": "-18.7",
-        "pos52": "50.6"
-      },
-      "bucket": "al"
-    },
-    {
       "kod": "DBK.DE",
       "market": "eu",
       "currency": "EUR",
@@ -846,6 +822,30 @@
         "chg1m": "-3.8",
         "chg1y": "56.5",
         "pos52": "82.3"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "ALARK",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 107.8,
+      "score": 70,
+      "mom": 57,
+      "trend": "yükseliş",
+      "rsi": 46,
+      "vol": 33.4,
+      "maxDD": -24.9,
+      "pos52": 72.9,
+      "ret1m": -4.7,
+      "ret3m": 4.1,
+      "ret6m": 19.8,
+      "chg1m": -4.7,
+      "chg1y": 30.5,
+      "vals": {
+        "chg1m": "-4.7",
+        "chg1y": "30.5",
+        "pos52": "72.9"
       },
       "bucket": "al"
     },
@@ -1018,30 +1018,6 @@
       "bucket": "al"
     },
     {
-      "kod": "ALARK",
-      "market": "tr",
-      "currency": "TRY",
-      "fiyat": 107.8,
-      "score": 67,
-      "mom": 57,
-      "trend": "yükseliş",
-      "rsi": 40,
-      "vol": 33.3,
-      "maxDD": -24.9,
-      "pos52": 65.7,
-      "ret1m": -2.2,
-      "ret3m": 1.7,
-      "ret6m": 13.7,
-      "chg1m": -2.2,
-      "chg1y": 26.6,
-      "vals": {
-        "chg1m": "-2.2",
-        "chg1y": "26.6",
-        "pos52": "65.7"
-      },
-      "bucket": "al"
-    },
-    {
       "kod": "JPM",
       "market": "us",
       "currency": "USD",
@@ -1062,6 +1038,30 @@
         "chg1m": "-2.1",
         "chg1y": "11.1",
         "pos52": "80.7"
+      },
+      "bucket": "al"
+    },
+    {
+      "kod": "SAP.DE",
+      "market": "eu",
+      "currency": "EUR",
+      "fiyat": 183.12,
+      "score": 67,
+      "mom": 64,
+      "trend": "yükseliş",
+      "rsi": 39,
+      "vol": 40.9,
+      "maxDD": -47,
+      "pos52": 47.6,
+      "ret1m": -1.5,
+      "ret3m": 38.5,
+      "ret6m": 19,
+      "chg1m": -1.5,
+      "chg1y": -20.2,
+      "vals": {
+        "chg1m": "-1.5",
+        "chg1y": "-20.2",
+        "pos52": "47.6"
       },
       "bucket": "al"
     },
@@ -1313,43 +1313,19 @@
       "score": 62,
       "mom": 52,
       "trend": "nötr-pozitif",
-      "rsi": 27,
-      "vol": 32.7,
+      "rsi": 28,
+      "vol": 32.6,
       "maxDD": -22.2,
-      "pos52": 66.7,
-      "ret1m": -5.5,
-      "ret3m": -5.1,
-      "ret6m": 23.9,
-      "chg1m": -5.5,
-      "chg1y": 14.3,
+      "pos52": 70.4,
+      "ret1m": -4.6,
+      "ret3m": -5.4,
+      "ret6m": 29.6,
+      "chg1m": -4.6,
+      "chg1y": 15.8,
       "vals": {
-        "chg1m": "-5.5",
-        "chg1y": "14.3",
-        "pos52": "66.7"
-      },
-      "bucket": "izle"
-    },
-    {
-      "kod": "BNP.PA",
-      "market": "eu",
-      "currency": "EUR",
-      "fiyat": 100.74,
-      "score": 61,
-      "mom": 53,
-      "trend": "nötr-pozitif",
-      "rsi": 58,
-      "vol": 27.8,
-      "maxDD": -17.9,
-      "pos52": 76.4,
-      "ret1m": -6.5,
-      "ret3m": 0.7,
-      "ret6m": 21.1,
-      "chg1m": -6.5,
-      "chg1y": 30.5,
-      "vals": {
-        "chg1m": "-6.5",
-        "chg1y": "30.5",
-        "pos52": "76.4"
+        "chg1m": "-4.6",
+        "chg1y": "15.8",
+        "pos52": "70.4"
       },
       "bucket": "izle"
     },
@@ -1594,6 +1570,30 @@
       "bucket": "izle"
     },
     {
+      "kod": "BNP.PA",
+      "market": "eu",
+      "currency": "EUR",
+      "fiyat": 100.74,
+      "score": 57,
+      "mom": 52,
+      "trend": "nötr-pozitif",
+      "rsi": 41,
+      "vol": 27.8,
+      "maxDD": -17.9,
+      "pos52": 73.1,
+      "ret1m": -5.7,
+      "ret3m": -1.1,
+      "ret6m": 22.7,
+      "chg1m": -5.7,
+      "chg1y": 28.5,
+      "vals": {
+        "chg1m": "-5.7",
+        "chg1y": "28.5",
+        "pos52": "73.1"
+      },
+      "bucket": "izle"
+    },
+    {
       "kod": "SU.PA",
       "market": "eu",
       "currency": "EUR",
@@ -1820,7 +1820,7 @@
       "rsi": 44,
       "vol": 42.6,
       "maxDD": -20.9,
-      "pos52": 69.2,
+      "pos52": 68.8,
       "ret1m": -4.1,
       "ret3m": -12.7,
       "ret6m": 28.2,
@@ -1829,7 +1829,7 @@
       "vals": {
         "chg1m": "-4.1",
         "chg1y": "82.1",
-        "pos52": "69.2"
+        "pos52": "68.8"
       },
       "bucket": "izle"
     },
@@ -2228,7 +2228,7 @@
       "rsi": 44,
       "vol": 60.1,
       "maxDD": -42.5,
-      "pos52": 46.4,
+      "pos52": 46.1,
       "ret1m": -10.4,
       "ret3m": -28,
       "ret6m": 24.5,
@@ -2237,7 +2237,7 @@
       "vals": {
         "chg1m": "-10.4",
         "chg1y": "133.9",
-        "pos52": "46.4"
+        "pos52": "46.1"
       },
       "bucket": "izle"
     },
@@ -2396,7 +2396,7 @@
       "rsi": 38,
       "vol": 23.1,
       "maxDD": -15,
-      "pos52": 51.1,
+      "pos52": 51,
       "ret1m": -8.9,
       "ret3m": -6.7,
       "ret6m": -1.5,
@@ -2405,7 +2405,7 @@
       "vals": {
         "chg1m": "-8.9",
         "chg1y": "19",
-        "pos52": "51.1"
+        "pos52": "51"
       },
       "bucket": "zayif"
     },
@@ -2502,30 +2502,6 @@
         "chg1m": "-3.9",
         "chg1y": "6.1",
         "pos52": "35.6"
-      },
-      "bucket": "zayif"
-    },
-    {
-      "kod": "DTE.DE",
-      "market": "eu",
-      "currency": "EUR",
-      "fiyat": 27.11,
-      "score": 43,
-      "mom": 47,
-      "trend": "düşüş",
-      "rsi": 61,
-      "vol": 26.8,
-      "maxDD": -30,
-      "pos52": 49,
-      "ret1m": -0.1,
-      "ret3m": 8.4,
-      "ret6m": -10.3,
-      "chg1m": -0.1,
-      "chg1y": -1.3,
-      "vals": {
-        "chg1m": "-0.1",
-        "chg1y": "-1.3",
-        "pos52": "49"
       },
       "bucket": "zayif"
     },
@@ -2962,6 +2938,30 @@
       "bucket": "zayif"
     },
     {
+      "kod": "TURSG",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 6.14,
+      "score": 36,
+      "mom": 36,
+      "trend": "düşüş",
+      "rsi": 45,
+      "vol": 40.3,
+      "maxDD": -19.8,
+      "pos52": 54.8,
+      "ret1m": -3.2,
+      "ret3m": -4.8,
+      "ret6m": -2.4,
+      "chg1m": -3.2,
+      "chg1y": 32.5,
+      "vals": {
+        "chg1m": "-3.2",
+        "chg1y": "32.5",
+        "pos52": "54.8"
+      },
+      "bucket": "zayif"
+    },
+    {
       "kod": "PEP",
       "market": "us",
       "currency": "USD",
@@ -3017,19 +3017,19 @@
       "score": 35,
       "mom": 34,
       "trend": "düşüş",
-      "rsi": 56,
-      "vol": 42,
+      "rsi": 54,
+      "vol": 41.9,
       "maxDD": -45.8,
-      "pos52": 14.3,
-      "ret1m": 7.7,
-      "ret3m": -6.5,
-      "ret6m": -16.9,
-      "chg1m": 7.7,
-      "chg1y": -39.2,
+      "pos52": 11.6,
+      "ret1m": 7.8,
+      "ret3m": -4,
+      "ret6m": -19.2,
+      "chg1m": 7.8,
+      "chg1y": -40.5,
       "vals": {
-        "chg1m": "7.7",
-        "chg1y": "-39.2",
-        "pos52": "14.3"
+        "chg1m": "7.8",
+        "chg1y": "-40.5",
+        "pos52": "11.6"
       },
       "bucket": "zayif"
     },
@@ -3178,6 +3178,54 @@
       "bucket": "zayif"
     },
     {
+      "kod": "DTE.DE",
+      "market": "eu",
+      "currency": "EUR",
+      "fiyat": 27.11,
+      "score": 34,
+      "mom": 32,
+      "trend": "düşüş",
+      "rsi": 34,
+      "vol": 27.4,
+      "maxDD": -30,
+      "pos52": 33.1,
+      "ret1m": -7.1,
+      "ret3m": 3.8,
+      "ret6m": -14.3,
+      "chg1m": -7.1,
+      "chg1y": -7.3,
+      "vals": {
+        "chg1m": "-7.1",
+        "chg1y": "-7.3",
+        "pos52": "33.1"
+      },
+      "bucket": "zayif"
+    },
+    {
+      "kod": "TTKOM",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 52.45,
+      "score": 33,
+      "mom": 23,
+      "trend": "düşüş",
+      "rsi": 48,
+      "vol": 36.9,
+      "maxDD": -31.6,
+      "pos52": 17.6,
+      "ret1m": -3,
+      "ret3m": -16.9,
+      "ret6m": -11.5,
+      "chg1m": -3,
+      "chg1y": 0.9,
+      "vals": {
+        "chg1m": "-3",
+        "chg1y": "0.9",
+        "pos52": "17.6"
+      },
+      "bucket": "zayif"
+    },
+    {
       "kod": "GUBRF",
       "market": "tr",
       "currency": "TRY",
@@ -3226,30 +3274,6 @@
       "bucket": "zayif"
     },
     {
-      "kod": "TURSG",
-      "market": "tr",
-      "currency": "TRY",
-      "fiyat": 6.14,
-      "score": 33,
-      "mom": 36,
-      "trend": "düşüş",
-      "rsi": 37,
-      "vol": 40.3,
-      "maxDD": -19.8,
-      "pos52": 49.5,
-      "ret1m": -3.2,
-      "ret3m": -8.8,
-      "ret6m": -10.1,
-      "chg1m": -3.2,
-      "chg1y": 29,
-      "vals": {
-        "chg1m": "-3.2",
-        "chg1y": "29",
-        "pos52": "49.5"
-      },
-      "bucket": "zayif"
-    },
-    {
       "kod": "HD",
       "market": "us",
       "currency": "USD",
@@ -3260,7 +3284,7 @@
       "rsi": 18,
       "vol": 25.5,
       "maxDD": -28.4,
-      "pos52": 8.4,
+      "pos52": 8.7,
       "ret1m": -12.9,
       "ret3m": -10.3,
       "ret6m": -8.6,
@@ -3269,7 +3293,7 @@
       "vals": {
         "chg1m": "-12.9",
         "chg1y": "-27.8",
-        "pos52": "8.4"
+        "pos52": "8.7"
       },
       "bucket": "zayif"
     },
@@ -3665,19 +3689,67 @@
       "score": 28,
       "mom": 19,
       "trend": "düşüş",
-      "rsi": 37,
+      "rsi": 39,
       "vol": 33.4,
       "maxDD": -25.5,
-      "pos52": 14.5,
-      "ret1m": -7.5,
-      "ret3m": -17.5,
-      "ret6m": -13.6,
-      "chg1m": -7.5,
-      "chg1y": 1,
+      "pos52": 18.2,
+      "ret1m": -6.5,
+      "ret3m": -14.3,
+      "ret6m": -10.4,
+      "chg1m": -6.5,
+      "chg1y": 2.5,
       "vals": {
-        "chg1m": "-7.5",
-        "chg1y": "1",
-        "pos52": "14.5"
+        "chg1m": "-6.5",
+        "chg1y": "2.5",
+        "pos52": "18.2"
+      },
+      "bucket": "zayif"
+    },
+    {
+      "kod": "ARCLK",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 87.15,
+      "score": 28,
+      "mom": 19,
+      "trend": "düşüş",
+      "rsi": 36,
+      "vol": 29.3,
+      "maxDD": -36.4,
+      "pos52": 4.1,
+      "ret1m": -5.7,
+      "ret3m": -15.8,
+      "ret6m": -22.9,
+      "chg1m": -5.7,
+      "chg1y": -34.7,
+      "vals": {
+        "chg1m": "-5.7",
+        "chg1y": "-34.7",
+        "pos52": "4.1"
+      },
+      "bucket": "zayif"
+    },
+    {
+      "kod": "OTKAR",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 304.75,
+      "score": 28,
+      "mom": 19,
+      "trend": "düşüş",
+      "rsi": 34,
+      "vol": 39.7,
+      "maxDD": -51,
+      "pos52": 11.6,
+      "ret1m": -5.7,
+      "ret3m": -13.4,
+      "ret6m": -19.1,
+      "chg1m": -5.7,
+      "chg1y": -42.8,
+      "vals": {
+        "chg1m": "-5.7",
+        "chg1y": "-42.8",
+        "pos52": "11.6"
       },
       "bucket": "zayif"
     },
@@ -3802,54 +3874,6 @@
       "bucket": "zayif"
     },
     {
-      "kod": "TTKOM",
-      "market": "tr",
-      "currency": "TRY",
-      "fiyat": 52.45,
-      "score": 26,
-      "mom": 15,
-      "trend": "düşüş",
-      "rsi": 43,
-      "vol": 36.6,
-      "maxDD": -31.6,
-      "pos52": 8.4,
-      "ret1m": -7.2,
-      "ret3m": -22.1,
-      "ret6m": -17.6,
-      "chg1m": -7.2,
-      "chg1y": -4.2,
-      "vals": {
-        "chg1m": "-7.2",
-        "chg1y": "-4.2",
-        "pos52": "8.4"
-      },
-      "bucket": "zayif"
-    },
-    {
-      "kod": "ARCLK",
-      "market": "tr",
-      "currency": "TRY",
-      "fiyat": 87.15,
-      "score": 26,
-      "mom": 15,
-      "trend": "düşüş",
-      "rsi": 34,
-      "vol": 29.3,
-      "maxDD": -36.4,
-      "pos52": 3.6,
-      "ret1m": -6.7,
-      "ret3m": -16.3,
-      "ret6m": -24.3,
-      "chg1m": -6.7,
-      "chg1y": -34.9,
-      "vals": {
-        "chg1m": "-6.7",
-        "chg1y": "-34.9",
-        "pos52": "3.6"
-      },
-      "bucket": "zayif"
-    },
-    {
       "kod": "ULKER",
       "market": "tr",
       "currency": "TRY",
@@ -3870,30 +3894,6 @@
         "chg1m": "-10.5",
         "chg1y": "-18.8",
         "pos52": "8.7"
-      },
-      "bucket": "zayif"
-    },
-    {
-      "kod": "OTKAR",
-      "market": "tr",
-      "currency": "TRY",
-      "fiyat": 304.75,
-      "score": 26,
-      "mom": 15,
-      "trend": "düşüş",
-      "rsi": 34,
-      "vol": 39.8,
-      "maxDD": -51,
-      "pos52": 10.3,
-      "ret1m": -6.3,
-      "ret3m": -14.8,
-      "ret6m": -19.3,
-      "chg1m": -6.3,
-      "chg1y": -43.6,
-      "vals": {
-        "chg1m": "-6.3",
-        "chg1y": "-43.6",
-        "pos52": "10.3"
       },
       "bucket": "zayif"
     },
