@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-17",
-  "generatedAt": "2026-10-17T10:07:42.347Z",
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T10:22:24.535Z",
   "count": 167,
   "universe": {
     "tr": 60,
@@ -2588,7 +2588,7 @@
       "rsi": 49,
       "vol": 39.2,
       "maxDD": -33.8,
-      "pos52": 25.1,
+      "pos52": 23.9,
       "ret1m": -3.6,
       "ret3m": -0.3,
       "ret6m": -11.4,
@@ -2597,7 +2597,7 @@
       "vals": {
         "chg1m": "-3.6",
         "chg1y": "11.3",
-        "pos52": "25.1"
+        "pos52": "23.9"
       },
       "bucket": "zayif"
     },
@@ -3380,7 +3380,7 @@
       "rsi": 25,
       "vol": 48.3,
       "maxDD": -39.6,
-      "pos52": 30.5,
+      "pos52": 29.4,
       "ret1m": -13.2,
       "ret3m": -10.5,
       "ret6m": -24.3,
@@ -3389,7 +3389,7 @@
       "vals": {
         "chg1m": "-13.2",
         "chg1y": "35.7",
-        "pos52": "30.5"
+        "pos52": "29.4"
       },
       "bucket": "zayif"
     },
@@ -3692,7 +3692,7 @@
       "rsi": 36,
       "vol": 34.8,
       "maxDD": -30.7,
-      "pos52": 0,
+      "pos52": 0.2,
       "ret1m": -13.4,
       "ret3m": -14.3,
       "ret6m": -21.9,
@@ -3701,7 +3701,7 @@
       "vals": {
         "chg1m": "-13.4",
         "chg1y": "-14.7",
-        "pos52": "0"
+        "pos52": "0.2"
       },
       "bucket": "zayif"
     },
@@ -3826,30 +3826,6 @@
       "bucket": "zayif"
     },
     {
-      "kod": "TURSG",
-      "market": "tr",
-      "currency": "TRY",
-      "fiyat": 5.23,
-      "score": 25,
-      "mom": 19,
-      "trend": "düşüş",
-      "rsi": 35,
-      "vol": 40.8,
-      "maxDD": -30.1,
-      "pos52": 24.4,
-      "ret1m": -12.8,
-      "ret3m": -23,
-      "ret6m": -22.6,
-      "chg1m": -12.8,
-      "chg1y": 12.6,
-      "vals": {
-        "chg1m": "-12.8",
-        "chg1y": "12.6",
-        "pos52": "24.4"
-      },
-      "bucket": "zayif"
-    },
-    {
       "kod": "AVGO",
       "market": "us",
       "currency": "USD",
@@ -3966,6 +3942,30 @@
         "chg1m": "-35.7",
         "chg1y": "-50.8",
         "pos52": "0.9"
+      },
+      "bucket": "zayif"
+    },
+    {
+      "kod": "TURSG",
+      "market": "tr",
+      "currency": "TRY",
+      "fiyat": 5.23,
+      "score": 23,
+      "mom": 15,
+      "trend": "düşüş",
+      "rsi": 35,
+      "vol": 40.8,
+      "maxDD": -30.1,
+      "pos52": 19,
+      "ret1m": -12.8,
+      "ret3m": -23,
+      "ret6m": -22.6,
+      "chg1m": -12.8,
+      "chg1y": 12.6,
+      "vals": {
+        "chg1m": "-12.8",
+        "chg1y": "12.6",
+        "pos52": "19"
       },
       "bucket": "zayif"
     },
